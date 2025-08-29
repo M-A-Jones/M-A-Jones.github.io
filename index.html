@@ -1,85 +1,269 @@
 <!doctype html>
-<html lang="en" class="h-100" data-bs-theme="dark">
+<html lang="en" data-bs-theme="auto">
   <head><script src="/bootstrap/js/color-modes.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="generator" content="">
-    <title>Michael A. Jones</title>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <meta name="author" content="Stanley Ryan Huddy">
+    <title>Stanley Ryan Huddy</title>
 
 <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="bootover.css" rel="stylesheet">
-<meta name="theme-color" content="#222529">
+
+<meta name="theme-color" content="#1b629b">
 
   </head>
-   <body class="d-flex flex-column h-100">
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+      </symbol>
+    </svg>
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Michael A. Jones</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav me-auto mb-2 mb-md-0">
-        <li class="nav-item">
-          <a class="nav-link" href="research.html">Research</a>
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+              id="bd-theme"
+              type="button"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+              aria-label="Toggle theme (auto)">
+        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+            Light
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="teaching.html">Teaching</a>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+            Dark
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#circle-half"></use></svg>
+            Auto
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
         </li>
       </ul>
     </div>
-  </div>
-</nav>
 
-<!-- Begin page content -->
-<main class="flex-shrink-0">
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-      <div class="col col-md-4">
-          <div class="card">
-              <img src="jones.jpg" class="card-img">
-          </div>
-      </div>
-      <div class="col col-md-8">
-          <h1>Michael A. Jones</h1>
-          <p class="lead">I am an Associate Editor at the <a href = "https://www.ams.org/home/page" target="_blank">American 
-            Mathematical Society</a>’s 
-            <a href="https://www.ams.org/publications/math-reviews/math-reviews" target="_blank">
-            Mathematical Reviews</a> (MR) in Ann Arbor, Michigan. I came to MR in 2008, 
-            after 14 years as a professor; in chronological order, I held academic 
-            positions at the U.S. Military Academy at West Point (3 years), 
-            Loyola University Chicago (1 year), and Montclair State University (10 years). 
-            I served as the editor of the Mathematical Association of America’s 
-            Mathematics Magazine from 2015 to 2019.  I studied under Donald Saari 
-            at Northwestern, earning my PhD in game theory in 1994. My bachelor’s 
-            degree is from Santa Clara University, where two of my professors 
-            (Gerald Alexanderson and Frank Farris) were also editors of Math Magazine.</p>
-      </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <path d="M4 0h5.5v1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h1V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
-        <path d="M9.5 3V0L14 4.5h-3A1.5 1.5 0 0 1 9.5 3z"/>
-        <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
-      </svg> <a href ="jones_cv.pdf" target="_blank">Curriculum Vitae</a>
+    
+<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="arrow-right-circle" viewBox="0 0 16 16">
+    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+  </symbol>
+  <symbol id="bootstrap" viewBox="0 0 118 94">
+    <title>Bootstrap</title>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
+  </symbol>
+</svg>
+
+<div class="col-lg-8 mx-auto p-4 py-md-5">
+  <header>
+    <div class="d-flex flex-column flex-md-row pb-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+        <span class="fs-4">Stanley Ryan Huddy</span>
+      </a>
+
+      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+        <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#teaching">Teaching</a>
+        <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#publications">Publications</a>
+      </nav>
     </div>
-  </div>
-  </div>
-</main>
+  </header>
 
-<footer class="footer mt-auto py-3 bg-body-tertiary">
-  <div class="container">
-    <span class="text-body-secondary">&copy; 2025</span>
-  </div>
-</footer>
+  <main>
+    <div class="row g-5">
+      <div class="col-md-4">
+        <img src="ryan1.jpg" class="img-fluid" alt="...">
+      </div>
 
+      <div class="col-md-8">
+        <h5 class="text-body-emphasis">Associate Professor of Mathematics</h5>
+        <p>
+          <a href="http://www.fdu.edu" target="_blank">Fairleigh Dickinson University</a>
+        </p>
+        <ul class="list-unstyled ps-0">
+          <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+          </svg> srh [at] fdu.edu</li>
+          <li>
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 0h5.5v1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h1V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+              <path d="M9.5 3V0L14 4.5h-3A1.5 1.5 0 0 1 9.5 3z"/>
+              <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+            <a href ="huddysr_cv.pdf" target="_blank">Curriculum Vitae</a>
+          </li>
+          <li><a href="https://scholar.google.com/citations?user=MHaMFEEAAAAJ&hl=en&oi=ao" target="_blank">
+            Google Scholar Profile</a></li>
+        </ul>
+        <p>Associate Editor at <a href="https://maa.org/publication/journal-single-post/" target="_blank">
+          Mathematics Magazine</a></p>
+      </div>
+    </div>
+
+    <hr class="col-3 col-md-2 mb-5">
+
+    <h2 class="text-body-emphasis" id="teaching">Teaching</h2>
+    <p>Fall 2025</p>
+    <ul>
+      <li>Differential Equations, M/Th, 11:30am-12:45pm</li>
+      <li>Discrete Structures, M/Th, 2:30pm-3:45pm</li>
+      <li>Differential Equations, M/W, 5:30pm-6:45pm</li>
+    </ul>
+
+    <hr class="col-3 col-md-2 mb-5">
+
+    <h2 class="text-body-emphasis" id="publications">Publications</h2>
+    <ol reversed>
+      <li>The Super Bowl Squares Pool, Stanley R. Huddy and Michael A. Jones,
+      The College Mathematics Journal (2025)
+              <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">
+            <a href="https://www.tandfonline.com/doi/pdf/10.1080/07468342.2025.2485811" target="_blank">Journal</a></li>
+        </ul>
+      </li>
+      <li>The milk and Monge shuffles and three self-working card tricks, Stanley R. Huddy,
+        The Mathematical Gazette (Accepted 2024)</li>
+      <li>
+        Enumeration of the Positive Rational Numbers Using The Calkin-Wilf Tree with Application 
+        to the Game Euclid,</a> Stanley R. Huddy and Brittany C. Ohlinger, Teaching Mathematics Through 
+        Cross-Curricular Projects, Classroom Resourse Materials Book Series, Edited by E.A. Donovan, L.A. 
+        Hoots, and L.W. Wiglesworth, American Mathematical Society (2024)
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item"><a href="https://bookstore.ams.org/CLRM/72" target="_blank">AMS Bookstore</a></li>
+        </ul>
+      </li>
+      <li>
+        Using critical curves to compute master stability islands for amplitude death in 
+        networks of delay-coupled oscillators, Stanley R. Huddy, Chaos (2020)
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">
+            <a href="https://aip.scitation.org/doi/10.1063/1.5121029" target="_blank">Journal</a></li>
+            <li class="list-group-item">
+              <a href ="ccmsi.pdf" target="_blank">pdf</a>
+            </li>
+        </ul>
+        </li>
+      <li> 
+      You Only Need a Bit of Luck to Win MTV's Are You the One?,</a> 
+      Stanley R. Huddy and Nomin Sukhbaatar, The UMAP Journal (2019)
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">
+          <a href="https://www.comap.com/resources/free-resources/umap" target="_blank">Journal</a></li>
+      </ul>
+    </li>
+      <li>
+      Math Bite: Hobbits and a Birthday-type Problem, Stanley R. Huddy, Mathematics Magazine (2019)
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">
+          <a href="https://www.tandfonline.com/doi/full/10.1080/0025570X.2019.1606608" target="_blank">Journal</a></li>
+      </ul>
+    </li>
+      <li>
+       Quotients of Hypotenuses of Pythagorean Triples (a,b,b+1) and Finite Differences, 
+       Stanley R. Huddy and Michael A. Jones, The Mathematical Gazette (2019)
+       <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">
+          <a href="https://www.cambridge.org/core/journals/mathematical-gazette/article/10303-quotients-of-hypotenuses-of-pythagorean-triples-a-b-b-1-and-finite-differences/21042D97FBB4A3A0556A1986B71CCEE5" target="_blank">Journal</a></li>
+      </ul>
+      </li>
+      <li>
+        All Parabolas Through Three Non-collinear Points, Stanley R. Huddy and Michael A. Jones,
+        The Mathematical Gazette (2018)
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">
+            <a href="https://www.cambridge.org/core/journals/mathematical-gazette/article/all-parabolas-through-three-noncollinear-points/3EFF0F24FCC030A3D7D559DCF93E752C#" target="_blank">Journal</a></li>
+        </ul>
+      </li>
+      <li>
+      The Calculus Behind Generic Drug Equivalence, Stanley R. Huddy and Michael A. Jones, 
+        The College Mathematics Journal (2018)
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">
+            <a href="https://www.tandfonline.com/doi/abs/10.1080/07468342.2017.1391502?journalCode=ucmj20" target="_blank">Journal</a></li>
+        </ul>
+      </li>
+      <li>Real Mathematics Fact, Stanley R. Huddy, Mathematics Magazine (2017)
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">
+              <a href ="rmf.pdf" target="_blank">pdf</a>
+            </li>
+        </ul>
+      </li>
+      <li>
+      Master Stability Islands for Amplitude Death in Networks of Delay-Coupled Oscillators, 
+      Stanley R. Huddy and Jie Sun, Physical Review E (2016)
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">
+          <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.93.052209" target="_blank">Journal</a></li>
+      </ul>
+      </li>
+      <li>
+        Proof without Words: Sums of Consecutive Odds and Positive Integer Cubes, 
+        Stanley R. Huddy, Mathematics Magazine (2016)
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">
+            <a href="https://www.tandfonline.com/doi/abs/10.4169/math.mag.89.3.196" target="_blank">Journal</a>
+          </li>
+      </ul>
+      </li>
+      <li>
+      A Geometric Perspective on Counting Nonnegative Integer Solutions and 
+        Combinatorial Identities, Matthew J. Haines, Stanley R. Huddy, 
+        and Michael A. Jones, International Journal of Mathematical Education in Science 
+        and Technology (2015)
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">
+            <a href="https://www.tandfonline.com/doi/abs/10.1080/0020739X.2014.985273?journalCode=tmes20" target="_blank">Journal</a>
+          </li>
+      </ul>
+    </li>
+      <li>
+      Amplitude Death Solutions for Stabilization of DC Microgrids with 
+        Instantaneous Constant-Power Loads, Stanley R. Huddy and Jospeh D. Skufca,
+        IEEE Transactions on Power Electronics (2013)
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">
+            <a href="https://ieeexplore.ieee.org/document/6189081" target="_blank">Journal</a>
+          </li>
+      </ul>
+      </li>
+      <li>
+        Redundancy in Nimber Sequences for Three-Element Subtraction Sets, Stanley R. Huddy, Michael A. Jones, and Brittany C. Shelton,
+        Pi Mu Epsilon Journal (2007)
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">
+            <a href="https://www.jstor.org/stable/i24337258" target="_blank">Journal</a>
+          </li>
+      </ul></li>
+    </ol>
+
+  </main>
+  <footer class="pt-5 my-5 text-body-secondary border-top">
+     &copy; 2025 Stanley Ryan Huddy
+  </footer>
+</div>
 <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     </body>
